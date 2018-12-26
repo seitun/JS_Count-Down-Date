@@ -1,0 +1,116 @@
+body {
+  font-family: "Nunito", sans-serif;
+  color: #575757;
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#25b99a99), color-stop(#50bda599), to(#fff));
+  background-image: linear-gradient(#25b99a99, #50bda599, #fff);
+}
+
+#countDown-container {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+input {
+  border: 0px solid;
+  border-radius: 10px;
+  text-indent: 10px;
+}
+
+#targetDate {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+#targetDate .ipt {
+  margin: 10px;
+}
+
+#targetDate .ipt #tgtyear::after {
+  content: "day";
+}
+
+#targetDate .ipt #tgtMonth::after {
+  content: "month";
+}
+
+#targetDate .ipt #tgtDay {
+  content: "day";
+}
+
+#targetDate .ipt p {
+  font-size: 1rem;
+}
+
+#targetDate #goBtn {
+  background-color: white;
+  width: 30px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 0px solid;
+  border-radius: 25px;
+  font-size: 1rem;
+  margin: 10px 10px 0 30px;
+}
+
+#leftTime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#leftTime #leftYear::after {
+  content: "year";
+}
+
+.parts {
+  width: 150px;
+}
+
+.nums {
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */

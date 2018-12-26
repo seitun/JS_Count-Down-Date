@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <!-- css -->
+    <link rel='stylesheet' href='style.css'>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <title>Count Down</title>
+</head>
+
+<body>
+    <div id="countDown-container">
+        <div id="targetDate">
+            <div class="ipt">
+                <p>year</p>
+                <input id="tgtYear" type='text'>
+            </div>
+            <div class="ipt">
+                <p>month</p>
+                <input id="tgtMonth" type='text'>
+            </div>
+            <div class="ipt">
+                <p>day</p>
+                <input id="tgtDay" type='text'>
+            </div>
+
+            <div id="goBtn">Go</div>
+
+        </div>
+        <div id="leftTime">
+            <div class="parts">
+                <div id="leftMonth" class="nums">0</div>month
+            </div>
+            <div class="parts">
+                <div id="leftDays" class="nums">0</div>days
+            </div>
+            <div class="parts">
+                <div id="leftHours" class="nums">0</div>hours
+            </div>
+            <div class="parts">
+                <div id="leftMin" class="nums">0</div>min
+            </div>
+            <div class="parts">
+                <div id="leftSec" class="nums">0</div>sec
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
